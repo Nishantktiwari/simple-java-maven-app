@@ -29,5 +29,9 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('Complete 2 ') {
+            steps {
+                echo 'Job Complete! with Nishant Code'
+            }
     }
 }
