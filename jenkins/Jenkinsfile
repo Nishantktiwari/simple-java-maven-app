@@ -26,12 +26,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'Job Complete!'
-            }
-        }
-        stage('Complete 2 ') {
-            steps {
-                echo 'Job Complete! with Nishant Code'
+                echo 'Job Complete!  This code is coming from dev env'
             }
 
         }
